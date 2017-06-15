@@ -42,9 +42,13 @@ These aren't bad if it is a couple lines of code in a file. But these can be nig
 
 So far you have been the only one pushing code up to your remote repository. When others push code up to the remote repository, your local code base becomes out of sync. This is what pull is used for.
 
-`git pull origin master` will pull any code from the remote branch that your don't have locally. It's basically the opposite of push.
+`git pull origin master` will pull any code from the remote branch that you don't have locally. It's basically the opposite of push.
 
 When team mates add code to the repo, you need to git it into your local code base. Always pull before you push to help avoid conflicts.
+
+__local__ is your code  that you have on your machine.
+
+__remote__ is the code that lives up at Github.com
 
 ---
 
